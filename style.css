@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/*
+*   h1
+*/
+h1 {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+/*
+*   container
+*/
+.container {
+    margin: 2rem;
+    text-align: center;
+}
+
+/*
+*   Questioninput
+*/
+.QuestionInput{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.question, .answer {
+    font-weight: 600;
+}
+.answer {
+    color: pink;
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+}
+input {
+    margin-top: 1rem;
+}
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+
+/*
+*   buttons
+*/
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*
+*   pcontainer
+*/
+.pcontainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#idp {
+    font-family: monospace, 'sans-serif';
+    white-space: pre-wrap;
+    flex-wrap: wrap;
+    text-align: left;
+    max-width: 20rem;
+    background-color: white;
+    filter: drop-shadow(0em 0em 4em rgba(0, 0, 0, 0.100));
+}
+
+/*font*/
+.question, .answer, h1, button, input {
+    font-family: Inter, 'sans-serif';
+}
